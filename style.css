@@ -34,15 +34,15 @@ body {
   display: flex;
 }
 
-/* GENERAL */
+
 a:link,
 a:visited {
   color: var(--color-brand--1);
 }
 
-/* SIDEBAR */
+
 .sidebar {
-  flex-basis: 50rem;
+  flex-basis: 60rem;
   background-color: var(--color-dark--1);
   padding: 3rem 5rem 4rem 5rem;
   display: flex;
@@ -196,7 +196,7 @@ a:visited {
   background-color: var(--color-light--1);
 }
 
-/* Popup width is defined in JS using options */
+
 .leaflet-popup .leaflet-popup-content-wrapper {
   background-color: var(--color-dark--1);
   color: var(--color-light--2);
@@ -212,9 +212,9 @@ a:visited {
   background-color: var(--color-dark--1);
 }
 
-.running-popup .leaflet-popup-content-wrapper {
+.corrida-popup .leaflet-popup-content-wrapper {
   border-left: 5px solid var(--color-brand--2);
 }
-.cycling-popup .leaflet-popup-content-wrapper {
+.ciclismo-popup .leaflet-popup-content-wrapper {
   border-left: 5px solid var(--color-brand--1);
 }
